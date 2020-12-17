@@ -4,8 +4,8 @@
 
     // d'abord les scss qui se trouvent dans la même branche du dossier //
 
-@import './fonts';
-@import './variables';
+@import "./fonts";
+@import "./variables";
 
     // mettre en non-commentaire après avoir telecharger fontawesome , voir étape 4 dans terminal //
 
@@ -21,4 +21,4 @@
 
     // mettre en dernier les scss qui regroupent les autres dans vos modules //
 
-@import './modules/pagehome';
+@import "./modules/style";

@@ -1,0 +1,45 @@
+header{
+    .en-tete{
+        background-color: rgb(166, 191, 201);
+        H4{
+            text-align: center;
+        }
+        hr{
+           width: 85%;
+           color: black;
+        }
+        .liste1{
+            display: flex;
+            justify-content: center;
+
+            ul{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    a{
+                        display: flex;
+                        justify-content: space-between;
+                        color: black;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        span{
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                    }
+                }
+                
+                
+            }
+        }.image-header{
+            background-image: url("../../../public/img/banner-bg.jpg");
+            height: 100%;
+        }
+    }
+
+}
