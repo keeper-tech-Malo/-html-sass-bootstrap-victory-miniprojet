@@ -9905,6 +9905,7 @@ header .en-tete {
 }
 header .en-tete H4 {
   text-align: center;
+  font-family: "spatial";
 }
 header .en-tete hr {
   width: 85%;
@@ -9929,10 +9930,12 @@ header .en-tete .liste1 ul li a {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: "spatial";
 }
 header .en-tete .liste1 ul li a span {
   display: flex;
   justify-content: space-between;
+  font-family: "spatial";
 }
 header .en-tete .image-header .image1 {
   background-image: url("../../../public/img/banner-bg.jpg");
@@ -9940,13 +9943,17 @@ header .en-tete .image-header .image1 {
   height: 600px;
 }
 header .en-tete .image-header .image1 .texte-header {
+  font-family: "spatial";
   padding: 150px;
   text-align: center;
+  text-transform: uppercase;
 }
 header .en-tete .image-header .image1 .texte-header p {
+  font-family: "spatial";
   color: white;
 }
 header .en-tete .image-header .image1 .texte-header h1 {
+  font-family: "spatial";
   color: white;
 }
 header .en-tete .image-header .image1 .texte-header button {
@@ -9954,6 +9961,8 @@ header .en-tete .image-header .image1 .texte-header button {
   align-items: center;
   background-color: red;
   color: white;
+  font-family: "spatial";
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=app.css.map */

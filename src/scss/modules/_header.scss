@@ -3,6 +3,7 @@ header{
         background-color: rgb(166, 191, 201);
         H4{
             text-align: center;
+            font-family: "spatial";
         }
         hr{
            width: 85%;
@@ -11,7 +12,6 @@ header{
         .liste1{
             display: flex;
             justify-content: center;
-
             ul{
                 display: flex;
                 list-style: none;
@@ -26,9 +26,11 @@ header{
                         color: black;
                         text-decoration: none;
                         text-transform: uppercase;
+                        font-family: "spatial";
                         span{
                             display: flex;
                             justify-content: space-between;
+                            font-family: "spatial";
                         }
                         
                     }
@@ -36,20 +38,24 @@ header{
                 
                 
             }
-        }.image-header{
+        }
+        .image-header{
             .image1{
                 background-image: url("../../../public/img/banner-bg.jpg");
                 background-size: cover;
                 height: 600px;
                 .texte-header{
+                    font-family: "spatial";
                     padding: 150px;
                     text-align: center;
+                    text-transform: uppercase;
+                    
                     p{
-                        
+                        font-family: "spatial";
                         color: white;
                     }
                     h1{
-                        
+                        font-family: "spatial";
                         color: white;
                     }
                     button{
@@ -57,6 +63,9 @@ header{
                         align-items: center;
                         background-color: red;
                         color: white;
+                        font-family: "spatial";
+                        text-transform: uppercase;
+                        
                         
                     }
                 }
@@ -64,5 +73,4 @@ header{
             }
         }
     }
-
 }
