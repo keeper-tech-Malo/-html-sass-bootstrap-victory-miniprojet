@@ -9696,7 +9696,28 @@ header .en-tete .liste1 ul li a span {
   justify-content: space-between;
 }
 
-header .en-tete .image-header {
+header .en-tete .image-header .image1 {
   background-image: url("../../../public/img/banner-bg.jpg");
-  height: 100%;
+  background-size: cover;
+  height: 600px;
+}
+
+header .en-tete .image-header .image1 .texte-header {
+  padding: 150px;
+  text-align: center;
+}
+
+header .en-tete .image-header .image1 .texte-header p {
+  color: white;
+}
+
+header .en-tete .image-header .image1 .texte-header h1 {
+  color: white;
+}
+
+header .en-tete .image-header .image1 .texte-header button {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  color: white;
 }

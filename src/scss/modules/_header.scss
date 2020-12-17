@@ -37,8 +37,31 @@ header{
                 
             }
         }.image-header{
-            background-image: url("../../../public/img/banner-bg.jpg");
-            height: 100%;
+            .image1{
+                background-image: url("../../../public/img/banner-bg.jpg");
+                background-size: cover;
+                height: 600px;
+                .texte-header{
+                    padding: 150px;
+                    text-align: center;
+                    p{
+                        
+                        color: white;
+                    }
+                    h1{
+                        
+                        color: white;
+                    }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        background-color: red;
+                        color: white;
+                        
+                    }
+                }
+                
+            }
         }
     }
 
